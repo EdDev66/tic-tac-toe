@@ -108,7 +108,6 @@ const checkWin = (pos, curCheck, mark) => {
             if(arr.includes(-1))
             arr.pop();
             delete pos[checker];
-            console.log(arr);
             }
     
         buildArray(pos, curCheck, mark);
